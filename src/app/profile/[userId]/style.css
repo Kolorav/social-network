@@ -1,0 +1,54 @@
+.profile-main-container {
+  @apply w-full max-w-[600px] h-full overflow-y-auto flex flex-col items-center px-[6px];
+}
+
+/* Profile Top Section Styles */
+
+.profile-top-section {
+  @apply w-full h-fit pb-5 mb-5 mt-2 rounded-lg shadow-md relative bg-light;
+}
+
+.profile-edit-button {
+  @apply absolute right-[10px] top-[215px] text-[#213d52];
+}
+
+.profile-cover-image {
+  @apply w-full h-[200px]  rounded overflow-hidden relative;
+}
+
+.profile-image-container {
+  @apply w-[90px] h-[90px] relative z-10 flex items-center justify-center  rounded-full  p-1 mt-[-50px] ml-5 bg-white shadow-md;
+}
+
+.profile-image {
+  @apply w-full h-full  bg-white relative rounded-full overflow-hidden;
+}
+
+.profile-details {
+  @apply w-full h-fit px-5 pt-3 z-20;
+}
+
+.profile-username {
+  @apply text-slate-700 font-bold text-xl;
+}
+.profile-user-handle {
+  @apply text-xs text-gray-600 font-medium;
+}
+
+/* Profile Top Section Styles - End*/
+
+/* Profile Post section */
+
+.profile-content {
+  @apply w-full;
+}
+
+.profile-posts-container {
+  @apply w-full columns-2 xxsm:columns-1 gap-1;
+}
+
+.profile-post {
+  @apply flex-1 break-inside-avoid mb-2 rounded overflow-hidden relative;
+}
+
+/* Profile Post section - End */

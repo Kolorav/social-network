@@ -7,7 +7,17 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    screens: {
+      mobile: { max: "740px" },
+      xxsm: { max: "320px" },
+    },
+
+    extend: {
+      colors: {
+        light: "#e6f5fb",
+        dark: "#233d52",
+      },
+    },
   },
   plugins: [],
 };

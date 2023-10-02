@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  @apply w-screen h-screen overflow-hidden flex items-center justify-center gap-3;
+}
+
+.center-content {
+  @apply flex-1 max-w-fit h-full mobile:pb-[100px] pb-[65px] overflow-hidden relative;
+}

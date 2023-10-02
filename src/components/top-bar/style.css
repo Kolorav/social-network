@@ -1,0 +1,7 @@
+.topbar {
+  @apply w-full h-12 flex items-center gap-2 p-2;
+}
+
+.logo {
+  @apply text-3xl;
+}

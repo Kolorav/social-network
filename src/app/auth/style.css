@@ -1,0 +1,7 @@
+.main-container {
+  @apply h-screen w-screen flex flex-col gap-5 justify-center items-center p-5;
+}
+
+.loaders-container {
+  @apply flex flex-col justify-center items-center;
+}

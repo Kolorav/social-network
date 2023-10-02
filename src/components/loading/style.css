@@ -1,0 +1,40 @@
+.loading-container {
+  @apply flex gap-4 text-2xl  font-light relative;
+}
+
+.white-ball {
+  @apply w-1 h-1 bg-white bg-blend-color-dodge rounded-lg absolute top-[6px] right-[33%];
+}
+
+.jumping-ball {
+  @apply w-[12px] h-[12px] rounded-md bg-red-400 right-[60.5px] top-0 absolute;
+  animation: horizontal 1s infinite alternate,
+    vertical 1s ease-out infinite alternate;
+}
+
+/* 60.5px -> 97% */
+@keyframes horizontal {
+  0% {
+    right: 57px;
+  }
+  100% {
+    right: 95%;
+  }
+}
+@keyframes vertical {
+  0% {
+    top: 10px;
+  }
+  15% {
+    top: -40px;
+  }
+  25% {
+    top: -50px;
+  }
+  /* 75% {
+    top: -10px;
+  } */
+  100% {
+    top: 0px;
+  }
+}

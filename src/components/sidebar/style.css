@@ -1,0 +1,9 @@
+.left-side-bar-section,
+.right-side-bar-section {
+  @apply w-[300px] h-full pt-14 pb-5  rounded  flex flex-col items-center;
+}
+
+.left-side-bar,
+.right-side-bar {
+  @apply flex-1 w-full bg-green-200 shadow-lg rounded-md flex flex-col items-center;
+}
